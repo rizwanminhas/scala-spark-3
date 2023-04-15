@@ -44,7 +44,7 @@ object HelloDataset extends Serializable {
 
     logger.info("DataSet: " + countDS.collect().mkString(","))
     logger.info("DataFrame: " + countDF.collect().mkString(","))
-    
+
     //Uncomment if you want to investigate SparkUI
     //scala.io.StdIn.readLine()
     spark.stop()
